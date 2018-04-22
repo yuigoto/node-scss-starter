@@ -1,0 +1,42 @@
+{
+  "name": "yx-node-scss-starter",
+  "version": "0.0.1",
+  "description": "A starter project for HTML/CSS template projects, using Nodemon and Express",
+  "homepage": "https://github.com/yuigoto/yx-node-scss-starter", 
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "html",
+    "scss",
+    "js",
+    "node",
+    "express",
+    "nodemon"
+  ],
+  "author": "Fabio Y. Goto <lab@yuiti.com.br>",
+  "contributors": [], 
+  "repository": {
+      "type": "git", 
+      "url": "https://github.com/yuigoto/yx-node-scss-starter.git"
+  }, 
+  "bugs": {
+      "url": "https://github.com/yuigoto/yx-node-scss-gulp-starter/issues"
+  }, 
+  "license": "MIT", 
+  "engines": {
+      "node": ">= 8.9.3"
+  }, 
+  "devDependencies": {
+      "node-sass": "^4.8.3",
+      "nodemon": "^1.17.3",
+      "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+      "async": "^2.6.0",
+      "copy": "^0.3.1",
+      "express": "^4.16.3"
+  }
+}
